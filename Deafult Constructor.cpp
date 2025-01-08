@@ -1,0 +1,18 @@
+#include<iostream>
+using namespace std;
+class employee{
+public:
+      employee()
+      {
+          cout<< "Deafult Contructor Invoked "<<endl;
+      }
+
+};
+
+int main()
+{
+    employee e1;
+    employee e2;
+
+    return 0;
+}
